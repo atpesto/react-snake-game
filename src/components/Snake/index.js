@@ -145,6 +145,8 @@ class Snake extends Component {
   }
 
   render() {
+
+
     return (
       <div className="snake-game" style={{ display: 'grid', gridTemplateRows: 'repeat(10, 1fr)'}}>
         {
